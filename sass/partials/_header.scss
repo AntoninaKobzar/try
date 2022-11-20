@@ -122,10 +122,10 @@
         height: 20px;
         fill: #F3C653;
 }
+
 .site-address {
         display: flex;
-        margin-right: 0;
-        margin-left: auto;
+        justify-content: flex-end;
         align-items: center;
         width: 210px;
         gap: 8px;
