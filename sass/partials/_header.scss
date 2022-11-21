@@ -10,24 +10,15 @@
         align-items: center;
         height: 100px;
 }
-.site-nav__logo{
-        padding-bottom: 16px;
-        font-family: 'Film P3';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 39px;
-        line-height: 1.08;
-        letter-spacing: 0.3em;
-        color: #FFFFFF;
+.site-nav__logo {
+        padding-top: 16px;
         @media screen and(min-width:1024px) {
         padding: 24px 0 33px;
-        font-size: 40px;
-        line-height: 1.08;
-        text-decoration: none;
+
 }
-//         @media screen and(min-width:1280px) {
-//         padding: 24px 0 33px;
-// }
+        @media screen and(min-width:1280px) {
+        padding: 24px 0 33px;
+}
 }
 .site-nav__list {
         display: flex;

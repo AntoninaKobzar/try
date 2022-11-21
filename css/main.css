@@ -339,21 +339,16 @@ ul {
 }
 
 .site-nav__logo {
-  padding-bottom: 16px;
-  font-family: "Film P3";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 39px;
-  line-height: 1.08;
-  letter-spacing: 0.3em;
-  color: #FFFFFF;
+  padding-top: 16px;
 }
 @media screen and (min-width: 1024px) {
   .site-nav__logo {
     padding: 24px 0 33px;
-    font-size: 40px;
-    line-height: 1.08;
-    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .site-nav__logo {
+    padding: 24px 0 33px;
   }
 }
 
@@ -531,8 +526,6 @@ body {
 }
 
 .hero-section {
-  width: 1280px;
-  height: 720px;
   width: 100%;
 }
 
@@ -540,18 +533,32 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 64px;
-  padding-bottom: 32px;
+  padding-top: 70px;
+  padding-bottom: 24px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Film P3";
   font-style: normal;
   font-weight: 700;
-  font-size: 128px;
-  line-height: 1.08;
+  font-size: 96px;
+  line-height: 1.07;
   letter-spacing: 0.3em;
   color: #FFFFFF;
+}
+@media screen and (min-width: 1024px) {
+  .hero__title {
+    padding-top: 88px;
+    padding-bottom: 16px;
+    font-size: 128px;
+    line-height: 1.08;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__title {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
 }
 
 .hero__subtitle {
@@ -588,6 +595,17 @@ body {
   color: #FFFFFF;
 }
 
+.site-address {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .site-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .order-table {
   font-family: "Montserrat";
   font-style: normal;
@@ -616,4 +634,51 @@ body {
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid #FFFFFF;
   border-radius: 25px;
+}
+
+.hero__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-width: 1280px) {
+  .hero__buttons {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+.site-address {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  gap: 8px;
+}
+
+.logo {
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.92;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    font-size: 40px;
+    line-height: 1.08;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .logo {
+    font-size: 39px;
+    line-height: 1.08;
+  }
 }/*# sourceMappingURL=main.css.map */
