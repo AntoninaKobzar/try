@@ -530,7 +530,21 @@ body {
   background-color: rgba(37, 29, 2, 0.788);
 }
 
+.hero-section {
+  width: 1280px;
+  height: 720px;
+  width: 100%;
+}
+
 .hero__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Film P3";
   font-style: normal;
   font-weight: 700;
@@ -541,6 +555,13 @@ body {
 }
 
 .hero__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -551,6 +572,13 @@ body {
 }
 
 .hero__slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 137px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
