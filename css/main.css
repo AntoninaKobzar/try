@@ -528,4 +528,64 @@ ul {
 
 body {
   background-color: rgba(37, 29, 2, 0.788);
+}
+
+.hero__title {
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+.hero__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero__slogan {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.order-table {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+  width: 236px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.order-room {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+  width: 232px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
 }/*# sourceMappingURL=main.css.map */
