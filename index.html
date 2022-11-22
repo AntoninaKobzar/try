@@ -106,6 +106,47 @@
         </div>
         <div class="hero__buttons">
         <button class="order-table" type="button">Забронювати столик</button>
+        <!--Backdrop-->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal-table">
+            <button type="button" class="button-close" data-modal-close>
+              <svg class="x-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-bytesize_close-1"></use>
+              </svg>
+            </button>
+            <!--Form book the table-->
+            <h2 class="order-table">ЗАБРОНЮВАТИ СТОЛИК</h2>
+            <form name="order-table">
+              <label class="order-table__label" for="person-name">На кого забронювати столик?</label>
+              <div class="order-table__inputs">
+                <input class="order-table__input" id="person-name" type="text" 
+                name="name" required pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$" placeholder="Ваше ім’я"/>  
+              </div>
+              <label class="order-table__label" for="person-phone">Номер телефону</label>
+              <div class="order-table__inputs">
+                <input class="order-table__input" id="person-phone" type="tel" 
+                name="phone" required pattern="^\+[0-9]{12}" placeholder="+38 (___) ___-__-__"/>  
+              </div>
+              <label class="order-table__label" for="person-number">Столик на яку кількість осіб?</label>
+              <div class="order-table__inputs">
+                <select class="order-table__input" id="person-number" name="number">
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>  
+              </div>
+              <label class="order-table__label" for="date">На яку дату бронювати?</label>
+              <div class="order-table__inputs">
+                <select class="order-table__input" id="date" name="date">
+                  <option value="due-date" selected>Сьогодні</option>
+                  <option value="other">Обрати дату</option>
+                </select>  
+              </div>
+              <button class="order-table__button" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+            </form>
+          </div>
+        </div>
         <a href="./"><button class="order-room" type="button">Забронювати номер</button></a>
         </div>
       </div>
