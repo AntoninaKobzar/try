@@ -1,44 +1,55 @@
-// header {
-//         width: 100%;
+.page-header {
+        // height: 111px;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        justify-content: baseline;
+        // margin: 0 auto;
 //         width: 1280px;
-//         height: 100px;
-// }
+        // height: 100px;
+}
 .site-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
+        display: inline-block;
+        justify-content: center;
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-between;
+        // align-content: center;
         height: 100px;
+        // display: inline-block;
 }
 .site-nav__logo {
+        display: inline-block;
         padding-top: 16px;
         margin-right: 52px;
-        @media screen and(min-width:1024px) {
-        padding: 24px 0 33px;
-        margin-right: 87px;
+        // @media screen and(min-width:1024px) {
+        // padding: 24px 0 33px;
+        // margin-right: 87px;
 
 }
-        @media screen and(min-width:1280px) {
-        padding: 24px 0 33px;
-        margin-right: 96px;
-}
-}
+//         @media screen and(min-width:1280px) {
+//         padding: 24px 0 33px;
+//         margin-right: 96px;
+// }
+
 .site-nav__list {
-        display: flex;
-        flex-direction: row;
-        gap: 72px;
+        display: inline-block;
+        // display: flex;
+        // flex-direction: row;
+        // gap: 72px;
         list-style: none;
         // padding: 30px 0;
 }
 .site-nav__page {
-        display: flex;
-        flex-direction: row;
-        padding: 30px 0;
+        display: inline-block;
+        // display: flex;
+        // flex-direction: row;
+        padding-top: 28px;
 }
 .site-nav__link {
+        display: inline-block;
         margin-right: 6px;
-        align-items: center;
-        margin-right: 32px;
+        // align-items: center;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -47,10 +58,10 @@
         letter-spacing: 0.02em;
         color: #F3C653;
         text-decoration: none;
-        @media screen and(min-width:1024px) {
-        display: flex;
-        margin-right: 32px;
-                }
+        // @media screen and(min-width:1024px) {
+        // display: flex;
+        // margin-right: 32px;
+        //         }
         
 }
 
@@ -72,6 +83,7 @@
 }
 
 .site-nav__contact {
+        display: inline-block;
         border: 0;
         @media screen and(min-width:1024px) {
         display: flex;
@@ -86,7 +98,6 @@
         fill: #F3C653;
         width: 24px;
         height: 24px;
-        margin-right: 8px;
 }
 // @media screen and(min-width:414px) {
         
@@ -97,23 +108,23 @@
 // @media screen and(min-width:1280px) {
         
 // }
-.site-net__list {
-        display: none;
-        @media screen and(min-width:1280px) {
-        display: flex;
-        flex-direction: row;
-        padding: 38px 0;
-        gap: 20px;
-        list-style: none;
-        }      
-}
+// .site-net__list {
+//         display: none;
+//         @media screen and(min-width:1280px) {
+//         display: flex;
+//         flex-direction: row;
+//         padding: 38px 0;
+//         gap: 20px;
+//         list-style: none;
+//         }      
+// }
 .site-net__button {
-        display: flex;
+        // display: flex;
         padding: 0;
         width: 24px;
         height: 24px;
-        justify-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-items: center;
         background-color: transparent;
         border: none;
 }
@@ -124,31 +135,14 @@
 }
 
 .site-address {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 210px;
-        gap: 8px;
-        @media screen and(min-width:1024px) {
-                display: none;
+        display: inline-block;
+        margin-top: 12px;
+//         @media screen and(min-width:1024px) {
+//                 display: none;
+// }
 }
-}
-.site-address__text {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.25;
-        letter-spacing: 0.01em;
-        color: #E5E5E5;
-        text-decoration: none;
-}
-.site-address__icon {
-        display: flex;
-        fill: #F3C653;
-        min-width: 20px;
-        min-height: 20px;
-}
+
+
 
 body {
         background-color: rgba(37, 29, 2, 0.788);
