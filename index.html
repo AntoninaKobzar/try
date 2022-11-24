@@ -81,7 +81,7 @@
             </ul>
           </div>
         </nav>
-        <address>
+        <!-- <address>
           <div class="page-header__site-address site-address">
             <svg class="site-address__icon" width="20" height="20">
               <use href="./images/icons.svg#icon-location-icon"></use>
@@ -90,25 +90,31 @@
               >Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
             >
           </div>
-        </address>
+        </address> -->
       </div>
     </header>
     <section class="hero-section">
       <div class="container">
-        <h1 class="hero__title" >MIMIHO</h1>
-        <h2 class="hero__subtitle">Ресторанно-готельний комплекс</h2>
-        <p class="hero__slogan">СМАК ЖИТТЯ 24/7</p>
         <div class="hero-section__site-address site-address">
           <svg class="site-address__icon" width="20" height="20">
             <use href="./images/icons.svg#icon-location-icon"></use>
           </svg>
           <a href="./" class="site-address__text">Україна, м. Полтава, вул. Маршала Бірюзова, 15</a>
         </div>
+        <h1 class="hero__title" >MIMIHO</h1>
+        <h2 class="hero__subtitle">Ресторанно-готельний комплекс</h2>
+        <p class="hero__slogan">СМАК ЖИТТЯ 24/7</p>
+        <!-- <div class="hero-section__site-address site-address">
+          <svg class="site-address__icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-location-icon"></use>
+          </svg>
+          <a href="./" class="site-address__text">Україна, м. Полтава, вул. Маршала Бірюзова, 15</a>
+        </div> -->
         <!-- <div class="hero__buttons"> -->
-        <button type="button" class="table__button" data-modal-open>Забронювати столик</button>
+        <button class="table__button" type="button" data-modal-open>Забронювати столик</button>
         <!--Backdrop-->
         <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
+          <div class="modal-table">
             <button type="button" class="button-close" data-modal-close>
               <svg class="x-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-bytesize_close-1"></use>
@@ -143,11 +149,11 @@
               </input>  
             </div>
             <label class="order-table__label" for="date">На яку дату бронювати?</label>
-              <button class="order-table__button" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+              <button class="order__button" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
             </form>
           </div>
         </div>
-        <a href="./"><button class="order-room" type="button">Забронювати номер</button></a>
+        <a href="./"><button class="room__button" type="button">Забронювати номер</button></a>
       </div>
     </section>
     <section></section>
