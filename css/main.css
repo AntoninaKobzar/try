@@ -322,19 +322,15 @@ ul {
 }
 
 .page-header {
+  height: 111px;
   width: 100%;
+  width: 414px;
   height: 100%;
-  display: inline-block;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
 }
 
 .site-nav {
   display: inline-block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0 auto;
   height: 100px;
 }
 
@@ -342,15 +338,18 @@ ul {
   display: inline-block;
   padding-top: 16px;
   margin-right: 52px;
+  width: 114px;
 }
 
 .site-nav__list {
   display: inline-block;
+  margin: 0 auto;
   list-style: none;
 }
 
 .site-nav__page {
   display: inline-block;
+  margin: 0 auto;
   padding-top: 28px;
 }
 
@@ -391,6 +390,7 @@ ul {
 
 .site-nav__contact {
   display: inline-block;
+  margin: 0 auto;
   border: 0;
 }
 @media screen and (min-width: 1024px) {
@@ -415,6 +415,14 @@ ul {
   height: 24px;
 }
 
+.site-net {
+  display: none;
+}
+
+.site-net__list {
+  display: none;
+}
+
 .site-net__button {
   padding: 0;
   width: 24px;
@@ -431,6 +439,7 @@ ul {
 
 .site-address {
   display: inline-block;
+  margin: 0 auto;
   margin-top: 12px;
 }
 

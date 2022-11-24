@@ -1,16 +1,12 @@
 .page-header {
-        // height: 111px;
+        height: 111px;
         width: 100%;
+        width: 414px;
         height: 100%;
-        display: inline-block;
-        justify-content: baseline;
-        // margin: 0 auto;
-//         width: 1280px;
-        // height: 100px;
 }
 .site-nav {
         display: inline-block;
-        justify-content: center;
+        margin: 0 auto;
         // display: flex;
         // flex-direction: row;
         // justify-content: space-between;
@@ -22,6 +18,7 @@
         display: inline-block;
         padding-top: 16px;
         margin-right: 52px;
+        width: 114px;
         // @media screen and(min-width:1024px) {
         // padding: 24px 0 33px;
         // margin-right: 87px;
@@ -34,6 +31,7 @@
 
 .site-nav__list {
         display: inline-block;
+        margin: 0 auto;
         // display: flex;
         // flex-direction: row;
         // gap: 72px;
@@ -42,6 +40,7 @@
 }
 .site-nav__page {
         display: inline-block;
+        margin: 0 auto;
         // display: flex;
         // flex-direction: row;
         padding-top: 28px;
@@ -84,6 +83,7 @@
 
 .site-nav__contact {
         display: inline-block;
+        margin: 0 auto;
         border: 0;
         @media screen and(min-width:1024px) {
         display: flex;
@@ -108,8 +108,11 @@
 // @media screen and(min-width:1280px) {
         
 // }
-// .site-net__list {
-//         display: none;
+.site-net {
+        display: none;
+}
+.site-net__list {
+        display: none;
 //         @media screen and(min-width:1280px) {
 //         display: flex;
 //         flex-direction: row;
@@ -117,7 +120,7 @@
 //         gap: 20px;
 //         list-style: none;
 //         }      
-// }
+}
 .site-net__button {
         // display: flex;
         padding: 0;
@@ -136,6 +139,7 @@
 
 .site-address {
         display: inline-block;
+        margin: 0 auto;
         margin-top: 12px;
 //         @media screen and(min-width:1024px) {
 //                 display: none;
