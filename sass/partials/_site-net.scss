@@ -1,0 +1,21 @@
+.site-net {
+    height: 24px;
+    width: 112px;
+}
+.site-net__list {
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;     
+    display: flex;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.site-net__icon {
+    width: 22px;
+    height: 20px;
+    fill: #F3C653;
+}

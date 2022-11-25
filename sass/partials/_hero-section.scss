@@ -91,34 +91,7 @@
     border: 2px solid #FFFFFF;
     border-radius: 25px;
 }
-
-.site-net__list {
-    width: 112px;
-    height: 24px;
-    list-style: none;
-
-    // @media screen and(min-width:1280px) {
-    //     display: flex;
-    //     flex-direction: row;
-    //     padding: 38px 0;
-    //     gap: 20px;
-    //     list-style: none;
-    // }
+.site-net {
+    display: flex;
 }
 
-.site-net__button {
-    // display: flex;
-    padding: 0;
-    width: 24px;
-    height: 24px;
-    // justify-content: center;
-    // align-items: center;
-    background-color: transparent;
-    border: none;
-}
-
-.site-net__icon {
-    width: 22px;
-    height: 20px;
-    fill: #F3C653;
-}
