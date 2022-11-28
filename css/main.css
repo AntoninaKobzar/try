@@ -730,6 +730,7 @@ ul {
 
 .slider {
   min-width: 0;
+  position: relative;
 }
 
 /* Слайдер */
@@ -754,4 +755,22 @@ ul {
 /* Стрелка не активная */
 /* Точки (булиты) */
 /* Активная точка */
-/* Элемент точки *//*# sourceMappingURL=main.css.map */
+/* Элемент точки */
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 10;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url(/images/cil_arrow-left.svg) 0 0/100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 15px;
+  bottom: -50px;
+  background: url(/images/icons.svg#icon-arrow-right) 0 0/100% no-repeat;
+}/*# sourceMappingURL=main.css.map */
