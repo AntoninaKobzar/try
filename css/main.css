@@ -731,7 +731,7 @@ ul {
 .slider {
   min-width: 0;
   position: relative;
-  margin: 32px 0 0 84px;
+  padding: 32px 0 0 84px;
 }
 
 .slider__item {
