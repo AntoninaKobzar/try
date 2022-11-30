@@ -1,9 +1,12 @@
 .slider {
         min-width: 0;
+        width: 414px;
         // width: 245px;
         // height: 245px;
-        position: relative;
-        padding: 32px 0 0 84px;
+        // position: relative;
+        padding: 32px -15px 0 0;
+        margin-right: 0;
+        margin-left: 84px;
         
         
 }
@@ -25,13 +28,14 @@
 
 /* Ограничивающая оболочка */
 .slick-list {
-    // overflow: hidden;
+    //  overflow: hidden;
 }
 
 /* Лента слайдов */
 .slick-track {
     display: flex;
     gap: 25px;
+    width: 414px;
     
     
 }
@@ -80,20 +84,30 @@
 .slick-dots li button {}
 
 .slider .slick-arrow {
-position: absolute;
-top: 120%;
-z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+// position: absolute;
+// top: 120%;
+// z-index: 10;
 font-size: 0;
 width: 32px;
 height: 32px;
+border: none;
 }
 .slider .slick-arrow.slick-prev {
-    right: 79px;
-    padding: 0;
+    // right: 79px;
+    // padding: 0;
     background: url(/images/cil_arrow-left.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
-    right: 15px;
-    padding: 0;
+    // right: 15px;
+    // padding: 0;
     background: url(/images/cil_arrow-right.svg) 0 0 / 100% no-repeat;
+}
+.slider.slick-initialized.slick-slider {
+    width: 330px;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: flex-end;
 }

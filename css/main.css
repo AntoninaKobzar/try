@@ -730,8 +730,10 @@ ul {
 
 .slider {
   min-width: 0;
-  position: relative;
-  padding: 32px 0 0 84px;
+  width: 414px;
+  padding: 32px -15px 0 0;
+  margin-right: 0;
+  margin-left: 84px;
 }
 
 .slider__item {
@@ -751,6 +753,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   gap: 25px;
+  width: 414px;
 }
 
 /* Слайд */
@@ -766,22 +769,29 @@ ul {
 /* Активная точка */
 /* Элемент точки */
 .slider .slick-arrow {
-  position: absolute;
-  top: 120%;
-  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-size: 0;
   width: 32px;
   height: 32px;
+  border: none;
 }
 
 .slider .slick-arrow.slick-prev {
-  right: 79px;
-  padding: 0;
   background: url(/images/cil_arrow-left.svg) 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
-  right: 15px;
-  padding: 0;
   background: url(/images/cil_arrow-right.svg) 0 0/100% no-repeat;
+}
+
+.slider.slick-initialized.slick-slider {
+  width: 330px;
 }/*# sourceMappingURL=main.css.map */
