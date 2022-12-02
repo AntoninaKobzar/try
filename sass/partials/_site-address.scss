@@ -7,9 +7,9 @@
         border-radius: 2px;
         
 
-        // @media screen and(min-width:1024px) {
-        //     display: none;
-        // }
+        @media screen and(min-width:1024px) {
+             display: none;
+         }
     }
 
     .site-address__text {
@@ -24,7 +24,7 @@
     }
 
     .site-address__icon {
-        // display: flex;
+        display: flex;
         fill: #F3C653;
         min-width: 20px;
         min-height: 20px;

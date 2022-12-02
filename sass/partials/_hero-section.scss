@@ -52,17 +52,17 @@
         color: #FFFFFF;
 }
 .site-address {
-    display: none;
+    display: flex;
     margin-top: 0;
     margin-right: 0;
     margin-left: auto;
     margin-bottom: 70px;
-    // @media screen and(min-width:1024px) {
-    // display: flex;
-    //     }
-        // @media screen and(min-width:1280px) {
+    @media screen and(min-width:1024px) {
+    display: flex;
+         }
+         @media screen and(min-width:1280px) {
     
-        // }
+         }
 }
 .table__button {
     margin-bottom: 24px;
