@@ -318,18 +318,19 @@ ul {
 
 .page-header {
   width: 100vw;
-  min-width: 414px;
   height: 64px;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 
 .site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .site-nav__logo {
@@ -433,10 +434,9 @@ ul {
 }
 
 .hero-section {
-  width: 414px;
   padding: 181px 0 20px;
-  width: 100%;
-  background-color: rgba(37, 29, 2, 0.788);
+  width: 100vw;
+  background-color: rgba(36, 25, 2, 0.952);
 }
 
 .hero__title {
@@ -474,6 +474,8 @@ ul {
 }
 
 .site-address {
+  display: none;
+  margin-top: 0;
   margin-right: 0;
   margin-left: auto;
   margin-bottom: 70px;

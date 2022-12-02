@@ -1,15 +1,15 @@
 .page-header {
         width: 100vw;
-        min-width: 414px;
+        // min-width: 414px;
         height: 64px;
         position: absolute;
         top: 0;
         left:0;
-        z-index: 1;
         
 }
 .site-nav {
         display: flex;
+        justify-content: space-between;
 
 }
 .site-nav__logo {
@@ -49,6 +49,7 @@
 .site-nav__page {
         padding-top: 28px;
         display: flex;
+
 }
 .site-nav__link {
         margin-right: 6px;

@@ -1,8 +1,8 @@
 .hero-section {
-    width: 414px;
+    // min-width: 414px;
     padding: 181px 0 20px;
-    width: 100%;
-    background-color: rgba(37, 29, 2, 0.788);
+    width: 100vw;
+    background-color: rgba(36, 25, 2, 0.952);
 }
 .hero__title {
         // display: flex;
@@ -52,6 +52,8 @@
         color: #FFFFFF;
 }
 .site-address {
+    display: none;
+    margin-top: 0;
     margin-right: 0;
     margin-left: auto;
     margin-bottom: 70px;
