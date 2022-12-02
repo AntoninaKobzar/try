@@ -318,12 +318,12 @@ ul {
 
 .page-header {
   width: 100vw;
-  width: 414px;
+  min-width: 414px;
   height: 64px;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(26, 20, 3, 0.788);
+  z-index: 1;
 }
 
 .site-nav {
@@ -370,6 +370,7 @@ ul {
 }
 
 .site-nav__link {
+  margin-right: 6px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -403,8 +404,6 @@ ul {
 }
 
 .site-nav__contact {
-  width: 24px;
-  height: 24px;
   border: 0;
 }
 @media screen and (min-width: 1024px) {
@@ -425,12 +424,97 @@ ul {
 
 .site-nav__icon {
   fill: #F3C653;
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 20px;
+}
+
+.site-net__link {
+  display: none;
+}
+
+.hero-section {
+  width: 414px;
+  padding: 181px 0 20px;
+  width: 100%;
+  background-color: rgba(37, 29, 2, 0.788);
+}
+
+.hero__title {
+  padding-bottom: 24px;
+  width: 303px;
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+.hero__subtitle {
+  padding-bottom: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero__slogan {
+  padding-bottom: 113px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.site-address {
+  margin-right: 0;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+
+.table__button {
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+  width: 232px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.room__button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+  width: 232px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
 }
 
 .site-net {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .site-net {

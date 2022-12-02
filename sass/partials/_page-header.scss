@@ -1,24 +1,19 @@
 .page-header {
         width: 100vw;
-        width: 414px;
+        min-width: 414px;
         height: 64px;
         position: absolute;
         top: 0;
         left:0;
-        // z-index: 1;
-        background-color: rgba(26, 20, 3, 0.788);
+        z-index: 1;
+        
 }
 .site-nav {
         display: flex;
-        // flex-direction: row;
-        // align-items: center;
-        // justify-content: space-between;
 
 }
 .site-nav__logo {
         display: flex;
-        // width: 114px;
-        // height: 39px;
         padding-top: 16px;
         margin-right: 52px;
         font-family: 'Film P3';
@@ -52,13 +47,11 @@
 }
 
 .site-nav__page {
-        
         padding-top: 28px;
         display: flex;
-        // flex-direction: row;
 }
 .site-nav__link {
-        // margin-right: 6px;
+        margin-right: 6px;
         
         font-family: 'Montserrat';
         font-style: normal;
@@ -93,8 +86,6 @@
 }
 
 .site-nav__contact {
-        width: 24px;
-        height: 24px;
         border: 0;
         @media screen and(min-width:1024px) {
         display: flex;
@@ -107,9 +98,8 @@
 }
 .site-nav__icon {
         fill: #F3C653;
-        width: 24px;
-        height: 24px;
-        // padding: 2px 6px;
+        width: 12px;
+        height: 20px;
 }
 // @media screen and(min-width:414px) {
         
@@ -121,7 +111,7 @@
         
 // }
 
-.site-net {
+.site-net__link {
         display: none;
 }
 
