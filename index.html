@@ -22,6 +22,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   </head>
   <body>
     <header class="page-header">
@@ -180,7 +181,7 @@
       </div>
     </section> -->
     <!--About our restaurant-->
-    <!-- <section class="restaurant">
+    <section class="restaurant">
       <div class="container">
         <h2 class="restaurant__title">Про наш ресторан</h2>
         <h3 class="restaurant__subtitle">Amet minim mollit non</h3>
@@ -195,30 +196,32 @@
           Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <img src="./">
         </div>
-        <div class="slider-container">
-        <div class="slider">
-          <div class="slider__item">
+        <div class="image-slider swiper-container">
+        <div class="image-slider__wrapper swiper-wrapper">
+          <div class="image-slider__slide swiper__slide">
+            <div class="image-slider__image">
             <img src="./images/pexels-helena-lopes-696218 1.jpg" alt="">
           </div>
-          <div class="slider__item">
-            <img src="./images/2.jpg" alt="">
-          </div>
-          <div class="slider__item">
-            <img src="./images/3.jpg" alt="">
-          </div>
-          <div class="slider__item">
-            <img src="./images/4.jpg" alt="">
-          </div>
-          <div class="slider__item">
-            <img src="./images/5.jpg" alt="">
-          </div>
+          </div></div>
+          <div class="swiper__slides">
+            <div class="swiper__image"><img src="./images/2.jpg" alt="">
+          </div></div>
+          <div class="swiper__slide">
+            <div class="swiper__image"><img src="./images/3.jpg" alt="">
+          </div></div>
+          <div class="swiper__slide">
+            <div class="swiper__image"><img src="./images/4.jpg" alt="">
+          </div></div>
+          <div class="swiper__slide">
+            <div class="swiper__image"><img src="./images/5.jpg" alt="">
+          </div></div>
         </div>
-          <button class="slider__slick-arrow slick-arrow slick-prev" type="button">
+          <button class="swiper__button-prev" type="button">
             <svg class="" width="32" height="32">
                       <use href="./images/icons.svg#icon-arrow-left"></use>
                     </svg>
           </button>
-          <button class="slider__slick-arrow slick-arrow slick-next" type="button"><svg class="" width="32" height="32">
+          <button class="swiper-button-next" type="button"><svg class="" width="32" height="32">
                       <use href="./images/icons.svg#icon-arrow-right"></use>
                     </svg></button>
         </div>
@@ -227,152 +230,14 @@
     <section></section>
     <section></section>
     <footer></footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="./sass/js/slick.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
+    <!-- <script src="./sass/js/slick.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./sass/js/script.js"></script>
     <script src="./sass/js/modal.js"></script>
   </body>
 </html>
-<header class="page-header">
-  <div class="container">
-    <nav class="site-nav">
-      <a class="site-nav__logo" href="/src/index.html">MIMIHO</a>
-      <ul class="site-nav__list">
-        <li class="site-nav__item">
-          <div class="site-nav__page">
-            <a class="site-nav__link" href="/src/restaurant-page.html"
-              >Ресторан</a
-            >
-            <div class="site-nav__contact">
-              <a class="site-nav__icon" href="tel:095 555 95 33">
-                <svg width="12" height="20">
-                  <use href="./images/icons.svg#icon-phone-icon"></use></svg
-              ></a>
-              <a class="site-nav__phone" href="tel:095 555 95 33"
-                >095 555 95 33</a
-              >
-            </div>
-          </div>
-        </li>
-        <li class="site-nav__item">
-          <div class="site-nav__page">
-            <a class="site-nav__link" href="/src/hotel-page.html">Готель</a>
-            <div class="site-nav__contact">
-              <a
-                class="site-nav__icon"
-                href="tel:066 849 10 89, tel:067 275 85 40"
-              >
-                <svg width="12" height="20">
-                  <use href="./images/icons.svg#icon-phone-icon"></use></svg
-              ></a>
-              <a class="site-nav__phone" href="tel:066 849 10 89"
-                >066 849 10 89</a
-              >
-              <a class="site-nav__phone" href="tel:067 275 85 40"
-                >067 275 85 40</a
-              >
-            </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    <div class="site-net">
-      <ul class="site-net__list">
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank">
-            <svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank"
-            ><svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank"
-            ><svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-telegram-icon"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
-<header class="page-header">
-  <div class="container">
-    <nav class="site-nav">
-      <a class="site-nav__logo" href="/src/index.html">MIMIHO</a>
-      <ul class="site-nav__list">
-        <li class="site-nav__item">
-          <div class="site-nav__page">
-            <a class="site-nav__link" href="/src/restaurant-page.html"
-              >Ресторан</a
-            >
-            <div class="site-nav__contact">
-              <a class="site-nav__icon" href="tel:095 555 95 33">
-                <svg width="12" height="20">
-                  <use href="./images/icons.svg#icon-phone-icon"></use></svg
-              ></a>
-              <a class="site-nav__phone" href="tel:095 555 95 33"
-                >095 555 95 33</a
-              >
-            </div>
-          </div>
-        </li>
-        <li class="site-nav__item">
-          <div class="site-nav__page">
-            <a class="site-nav__link" href="/src/hotel-page.html">Готель</a>
-            <div class="site-nav__contact">
-              <a
-                class="site-nav__icon"
-                href="tel:066 849 10 89, tel:067 275 85 40"
-              >
-                <svg width="12" height="20">
-                  <use href="./images/icons.svg#icon-phone-icon"></use></svg
-              ></a>
-              <a class="site-nav__phone" href="tel:066 849 10 89"
-                >066 849 10 89</a
-              >
-              <a class="site-nav__phone" href="tel:067 275 85 40"
-                >067 275 85 40</a
-              >
-            </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    <div class="site-net">
-      <ul class="site-net__list">
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank">
-            <svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank"
-            ><svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="site-net__item">
-          <a class="site-net__link" href="./" target="_blank"
-            ><svg class="site-net__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-telegram-icon"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
+
 
 
 
